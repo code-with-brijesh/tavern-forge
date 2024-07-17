@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('/assets/fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+    url('/assets/fonts/sourcesanspro-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('/assets/fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+    url('/assets/fonts/sourcesanspro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,h2 {
+  font-family: 'source_sans_probold';
+}
+
+p {
+  font-family: 'source_sans_proregular';
+}
+.slick-slide {
+  margin: 0 15px;
+}
